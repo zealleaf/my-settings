@@ -1,0 +1,38 @@
+{
+  // window default terminal
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+
+  // workbench & editor style
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "GitHub Dark Dimmed",
+  "workbench.iconTheme": "file-icons",
+  "workbench.productIconTheme": "icons-carbon",
+  "workbench.editor.tabCloseButton": "left",
+  "workbench.editor.highlightModifiedTabs": true,
+  "editor.fontFamily": "'Input Mono' ,Consolas, 'Courier New', monospace",
+  "editor.tabSize": 2,
+  "editor.fontSize": 13.5,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.lineNumbers": "interval",
+  "editor.cursorSmoothCaretAnimation": true,
+
+  // errorLens
+  "errorLens.enabledDiagnosticLevels": ["error", "warning"], // "info", "hint"
+  "errorLens.excludeBySource": ["cSpell"], // "eslint", "stylelint"
+
+  //lint
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "json5"
+  ],
+  "stylelint.validate": ["css", "less", "sass", "scss", "postcss"]
+}
