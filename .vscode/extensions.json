@@ -16,6 +16,7 @@
     "esbenp.prettier-vscode",
     "stylelint.vscode-stylelint",
     "albert.TabOut",
-    "antfu.where-am-i"
+    "antfu.where-am-i",
+    "styled-components.vscode-styled-components"
   ]
 }
