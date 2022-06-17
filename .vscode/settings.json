@@ -5,7 +5,7 @@
   "workbench.colorTheme": "Theme",
   "workbench.editor.tabCloseButton": "left",
   "workbench.editor.highlightModifiedTabs": true,
-  "editor.fontFamily": "'Fira Mono','Input Mono'",
+  "editor.fontFamily": "'Fira Code','Input Mono'",
   "editor.tabSize": 2,
   "editor.fontSize": 13.5,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
