@@ -2,7 +2,7 @@
   // workbench & editor style
   "workbench.sideBar.location": "right",
   "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "Theme",
+  "workbench.colorTheme": "Aura Dark (Soft Text)",
   "workbench.editor.tabCloseButton": "left",
   "workbench.editor.highlightModifiedTabs": true,
   "editor.fontFamily": "'Fira Code','Input Mono'",
