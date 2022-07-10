@@ -1,15 +1,15 @@
 {
   // workbench & editor style
-  "workbench.sideBar.location": "right",
   "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "Aura Dark (Soft Text)",
+  "workbench.colorTheme": "monokai-charcoal",
+  "workbench.sideBar.location": "right",
   "workbench.editor.tabCloseButton": "left",
-  "workbench.editor.highlightModifiedTabs": true,
+  // "workbench.editor.highlightModifiedTabs": true,
   "editor.fontFamily": "'Fira Code','Input Mono'",
   "editor.tabSize": 2,
-  "editor.fontSize": 13.5,
+  "editor.fontSize": 13,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  // "editor.formatOnSave": true,
+  "editor.formatOnSave": true,
   "editor.lineNumbers": "interval",
   "editor.cursorSmoothCaretAnimation": true,
 

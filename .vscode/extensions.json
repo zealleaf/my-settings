@@ -17,6 +17,7 @@
     "stylelint.vscode-stylelint",
     "albert.TabOut",
     "antfu.where-am-i",
-    "styled-components.vscode-styled-components"
+    "styled-components.vscode-styled-components",
+    "Yao-Translate.yao-translate"
   ]
 }
