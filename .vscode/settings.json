@@ -1,7 +1,7 @@
 {
   // workbench & editor style
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "monokai-charcoal",
+  "workbench.iconTheme": "Monokai Classic Icons",
+  "workbench.colorTheme": "Monokai Classic",
   "workbench.sideBar.location": "right",
   "workbench.editor.tabCloseButton": "left",
   // "workbench.editor.highlightModifiedTabs": true,
@@ -12,6 +12,7 @@
   "editor.formatOnSave": true,
   "editor.lineNumbers": "interval",
   "editor.cursorSmoothCaretAnimation": true,
+  "explorer.confirmDelete": false,
 
   // errorLens
   "errorLens.enabledDiagnosticLevels": ["error", "warning"], // "info", "hint"
@@ -30,6 +31,5 @@
     "jsonc",
     "json5"
   ],
-  "stylelint.validate": ["css", "less", "sass", "scss", "postcss"],
-  "explorer.confirmDelete": false
+  "stylelint.validate": ["css", "less", "sass", "scss", "postcss"]
 }
