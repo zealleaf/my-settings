@@ -1,14 +1,10 @@
 {
   "recommendations": [
-    "patbenatar.advanced-new-file",
     "formulahendry.auto-complete-tag",
-    "antfu.icons-carbon",
     "streetsidesoftware.code-spell-checker",
     "naumovs.color-highlight",
     "usernamehw.errorlens",
     "dbaeumer.vscode-eslint",
-    "file-icons.file-icons",
-    "GitHub.github-vscode-theme",
     "eamodio.gitlens",
     "VisualStudioExptTeam.vscodeintellicode",
     "ritwickdey.LiveServer",
@@ -16,8 +12,19 @@
     "esbenp.prettier-vscode",
     "stylelint.vscode-stylelint",
     "albert.TabOut",
-    "antfu.where-am-i",
     "styled-components.vscode-styled-components",
-    "Yao-Translate.yao-translate"
+    "Yao-Translate.yao-translate",
+    "tobiasalthoff.atom-material-theme",
+    "aaron-bond.better-comments",
+    "alefragnani.Bookmarks",
+    "adpyke.codesnap",
+    "jaluik.dot-log",
+    "xabikos.JavaScriptSnippets",
+    "PKief.material-icon-theme",
+    "PKief.material-product-icons",
+    "wayou.vscode-todo-highlight",
+    "Gruntfuggly.todo-tree",
+    "ChakrounAnas.turbo-console-log",
+    "styled-components.vscode-styled-components"
   ]
 }
