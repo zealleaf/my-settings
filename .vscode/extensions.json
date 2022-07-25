@@ -25,6 +25,7 @@
     "wayou.vscode-todo-highlight",
     "Gruntfuggly.todo-tree",
     "ChakrounAnas.turbo-console-log",
-    "styled-components.vscode-styled-components"
+    "styled-components.vscode-styled-components",
+    "burkeholland.simple-react-snippets"
   ]
 }
