@@ -1,7 +1,7 @@
 {
   // workbench & editor style
+  "workbench.colorTheme": "Material Theme High Contrast",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Atom Material Theme",
   "workbench.productIconTheme": "material-product-icons",
   "workbench.sideBar.location": "right",
   "workbench.editor.tabCloseButton": "left",
