@@ -13,6 +13,7 @@
   // "editor.formatOnSave": true,
   "editor.lineNumbers": "interval",
   "editor.cursorSmoothCaretAnimation": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
   "explorer.confirmDelete": false,
 
   // errorLens
