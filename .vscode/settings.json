@@ -1,14 +1,12 @@
 {
-  // workbench & editor style
-  "workbench.colorTheme": "Material Theme High Contrast",
+  "workbench.colorTheme": "GitHub Dark",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.productIconTheme": "material-product-icons",
-  "workbench.sideBar.location": "right",
   "workbench.editor.tabCloseButton": "left",
-  // "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.productIconTheme": "material-product-icons",
   "editor.fontFamily": "'Fira Code','Input Mono'",
   "editor.tabSize": 2,
-  "editor.fontSize": 14,
+  "editor.fontSize": 12.5,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   // "editor.formatOnSave": true,
   "editor.lineNumbers": "interval",
@@ -33,5 +31,12 @@
     "jsonc",
     "json5"
   ],
-  "stylelint.validate": ["css", "less", "sass", "scss", "postcss"]
+  "stylelint.validate": ["css", "less", "sass", "scss", "postcss"],
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "other": "on",
+      "comments": "off",
+      "strings": "off"
+    }
+  }
 }
