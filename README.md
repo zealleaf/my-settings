@@ -1,2 +1,2 @@
-# vscode-settings
-my vscode settings
+# ⚙️settings
+my settings
