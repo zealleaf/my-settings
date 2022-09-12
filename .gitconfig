@@ -1,0 +1,17 @@
+[alias]	
+	a = add
+	aa = add .
+	co = checkout
+	cob = checkout -b
+	br = branch
+	bra = branch -a
+	ci = commit
+	cim = commit -m
+	st = status
+	rs = reset
+	rss = reset --soft
+	rsm = reset --mixed
+	rsd = reset --hard
+	unstage = reset HEAD --
+	last = log -1 HEAD --pretty=format:'%h %ad → %s%d [%an]' --graph --date=short --decorate
+	hist = log --pretty=format:'%h %ad → %s%d [%an]' --graph --date=short --decorate
