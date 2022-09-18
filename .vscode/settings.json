@@ -79,14 +79,6 @@
       "before": ["leader", "w"],
       "commands": ["workbench.action.files.save"]
     },
-    {
-      "before": ["<leader>", "s"],
-      "commands": ["workbench.action.focusSideBar"]
-    },
-    {
-      "before": ["<leader>", "t"],
-      "commands": ["workbench.action.terminal.focus"]
-    }
   ],
   "vim.leader": "<space>",
   "liveServer.settings.donotShowInfoMsg": true
