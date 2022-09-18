@@ -91,12 +91,8 @@
       "silent": true
     },
     {
-      "before": ["<C-m>"],
-      "commands": [":tabn"]
-    },
-    {
       "before": ["<C-n>"],
-      "commands": [":tabp"]
+      "commands": [":nohl"]
     },
     {
       "before": ["leader", "w"],
