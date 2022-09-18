@@ -37,8 +37,27 @@
   "vim.hlsearch": true,
   "vim.insertModeKeyBindings": [
     {
-      "before": ["<leader>", "j"],
-      "after": ["<Esc>"]
+      "before": ["<C-j>"],
+      "after": ["<esc>"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    { "before": ["<C-j>"], "after": ["<esc>"] },
+    {
+      "before": ["L"],
+      "after": ["$"]
+    },
+    {
+      "before": ["H"],
+      "after": ["^"]
+    },
+    {
+      "before": ["J"],
+      "after": ["5", "j"]
+    },
+    {
+      "before": ["K"],
+      "after": ["5", "k"]
     }
   ],
   "vim.normalModeKeyBindings": [
@@ -51,16 +70,20 @@
       "after": ["^"]
     },
     {
-      "before": ["g", "j"],
-      "commands": ["workbench.action.navigateBack"]
-    },
-    {
       "before": ["J"],
       "after": ["5", "j"]
     },
     {
       "before": ["K"],
       "after": ["5", "k"]
+    },
+    {
+      "before": ["g", "j"],
+      "commands": ["workbench.action.navigateBack"]
+    },
+    {
+      "before": ["<C-j>"],
+      "after": ["<Esc>"]
     },
     {
       "before": ["<C-k>"],
@@ -78,7 +101,7 @@
     {
       "before": ["leader", "w"],
       "commands": ["workbench.action.files.save"]
-    },
+    }
   ],
   "vim.leader": "<space>",
   "liveServer.settings.donotShowInfoMsg": true
