@@ -1,42 +1,93 @@
 {
-  "workbench.colorTheme": "GitHub Dark Dimmed",
+  "workbench.colorTheme": "Vim Dark Medium",
   "workbench.editor.tabCloseButton": "left",
-  "workbench.editor.highlightModifiedTabs": true,
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.fontFamily": "'Cartograph CF','Fira Code','Input Mono'",
+  // "workbench.editor.highlightModifiedTabs": true,
+  "editor.fontFamily": "'Fira Code','Input Mono'",
   "editor.tabSize": 2,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   // "editor.formatOnSave": true,
-  "editor.lineNumbers": "interval",
+  // "editor.lineNumbers": "interval",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "explorer.confirmDelete": false,
   "terminal.integrated.fontSize": 12,
+  "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.hidesExplorerArrows": true,
+  "editor.fontSize": 14,
 
   // errorLens
-  "errorLens.enabledDiagnosticLevels": ["error", "warning"], // "info", "hint"
-  "errorLens.excludeBySource": ["cSpell"], // "eslint", "stylelint"
+  "errorLens.enabledDiagnosticLevels": ["error"], // "info", "hint", "warn"
+  "errorLens.excludeBySource": ["cSpell", "eslint", "stylelint"], //
 
-  //lint
-  "eslint.validate": [
-    "javascript",
-    "typescript",
-    "javascriptreact",
-    "typescriptreact",
-    "vue",
-    "html",
-    "markdown",
-    "json",
-    "jsonc",
-    "json5"
-  ],
-  "stylelint.validate": ["css", "less", "sass", "scss", "postcss"],
   "[markdown]": {
     "editor.quickSuggestions": {
       "other": "on",
       "comments": "off",
       "strings": "off"
     }
-  }
+  },
+  "jestrunner.codeLens": ["run", "debug", "watch"],
+  "jestrunner.disableCodeLens": true,
+
+  // vim
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["<leader>", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["L"],
+      "after": ["$"]
+    },
+    {
+      "before": ["H"],
+      "after": ["^"]
+    },
+    {
+      "before": ["g", "j"],
+      "commands": ["workbench.action.navigateBack"]
+    },
+    {
+      "before": ["J"],
+      "after": ["5", "j"]
+    },
+    {
+      "before": ["K"],
+      "after": ["5", "k"]
+    },
+    {
+      "before": ["<C-k>"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    },
+    {
+      "before": ["<C-m>"],
+      "commands": [":tabn"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":tabp"]
+    },
+    {
+      "before": ["leader", "w"],
+      "commands": ["workbench.action.files.save"]
+    },
+    {
+      "before": ["<leader>", "s"],
+      "commands": ["workbench.action.focusSideBar"]
+    },
+    {
+      "before": ["<leader>", "t"],
+      "commands": ["workbench.action.terminal.focus"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "liveServer.settings.donotShowInfoMsg": true
 }
