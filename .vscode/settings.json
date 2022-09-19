@@ -1,6 +1,6 @@
 {
-  "workbench.colorTheme": "Vim Dark Medium",
-  "workbench.editor.tabCloseButton": "left",
+  "workbench.colorTheme": "Vim Dark Soft",
+  // "workbench.editor.tabCloseButton": "left",
   // "workbench.editor.highlightModifiedTabs": true,
   "editor.fontFamily": "'Fira Code','Input Mono'",
   "editor.tabSize": 2,
