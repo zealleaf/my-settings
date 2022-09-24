@@ -1,24 +1,36 @@
 {
-  "workbench.colorTheme": "Vim Dark Soft",
-  // "workbench.editor.tabCloseButton": "left",
-  // "workbench.editor.highlightModifiedTabs": true,
-  "editor.fontFamily": "'Fira Code','Input Mono'",
+  /* -----------editor-------------  */
+  "editor.fontFamily": "Fira Code",
   "editor.tabSize": 2,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  // "editor.formatOnSave": true,
-  // "editor.lineNumbers": "interval",
+  "editor.lineNumbers": "relative",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
-  "explorer.confirmDelete": false,
-  "terminal.integrated.fontSize": 12,
+  "editor.fontSize": 13,
+  /* ----------workbench---------- */
+  "workbench.editor.highlightModifiedTabs": true,
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Vim Dark Medium",
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#f5f5f5"
+  },
+  /* -----------terminal--------- */
+  "terminal.integrated.fontSize": 12,
+  /* -----------explorer--------- */
+  "explorer.confirmDelete": false,
+  /* -----------material--------- */
   "material-icon-theme.hidesExplorerArrows": true,
-  "editor.fontSize": 14,
-
-  // errorLens
-  "errorLens.enabledDiagnosticLevels": ["error"], // "info", "hint", "warn"
-  "errorLens.excludeBySource": ["cSpell", "eslint", "stylelint"], //
-
+  /* ---------errorLens---------- */
+  "errorLens.enabledDiagnosticLevels": [
+    "error"
+  ], // "info", "hint", "warn"
+  "errorLens.excludeBySource": [
+    "cSpell",
+    "eslint",
+    "stylelint"
+  ], 
+  /* ---------markdown--------- */
   "[markdown]": {
     "editor.quickSuggestions": {
       "other": "on",
@@ -26,79 +38,217 @@
       "strings": "off"
     }
   },
-  "jestrunner.codeLens": ["run", "debug", "watch"],
+  /* ----------jest----------- */
+  "jestrunner.codeLens": [
+    "run",
+    "debug",
+    "watch"
+  ],
   "jestrunner.disableCodeLens": true,
-
-  // vim
+  /* ----------vim----------- */
   "vim.easymotion": true,
   "vim.incsearch": true,
   "vim.useSystemClipboard": true,
   "vim.useCtrlKeys": true,
   "vim.hlsearch": true,
-  "vim.insertModeKeyBindings": [
+  "vim.insertModeKeyBindingsNonRecursive": [
     {
-      "before": ["<C-j>"],
-      "after": ["<esc>"]
+      "before": [
+        "<C-j>"
+      ],
+      "after": [
+        "<esc>"
+      ]
     }
   ],
-  "vim.visualModeKeyBindings": [
-    { "before": ["<C-j>"], "after": ["<esc>"] },
+  "vim.visualModeKeyBindingsNonRecursive": [
     {
-      "before": ["L"],
-      "after": ["$"]
+      "before": [
+        "<C-j>"
+      ],
+      "after": [
+        "<esc>"
+      ]
     },
     {
-      "before": ["H"],
-      "after": ["^"]
+      "before": [
+        "L"
+      ],
+      "after": [
+        "$"
+      ]
     },
     {
-      "before": ["J"],
-      "after": ["5", "j"]
+      "before": [
+        "H"
+      ],
+      "after": [
+        "^"
+      ]
     },
     {
-      "before": ["K"],
-      "after": ["5", "k"]
+      "before": [
+        "J"
+      ],
+      "after": [
+        "5",
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "K"
+      ],
+      "after": [
+        "5",
+        "k"
+      ]
+    },
+    {
+      "before": [
+        ">"
+      ],
+      "commands": [
+        "editor.action.indentLines"
+      ]
+    },
+    {
+      "before": [
+        "<"
+      ],
+      "commands": [
+        "editor.action.outdentLines"
+      ]
     }
   ],
-  "vim.normalModeKeyBindings": [
+  "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": ["L"],
-      "after": ["$"]
+      "before": [
+        "L"
+      ],
+      "after": [
+        "$"
+      ]
     },
     {
-      "before": ["H"],
-      "after": ["^"]
+      "before": [
+        "H"
+      ],
+      "after": [
+        "^"
+      ]
     },
     {
-      "before": ["J"],
-      "after": ["5", "j"]
+      "before": [
+        "J"
+      ],
+      "after": [
+        "5",
+        "j"
+      ]
     },
     {
-      "before": ["K"],
-      "after": ["5", "k"]
+      "before": [
+        "K"
+      ],
+      "after": [
+        "5",
+        "k"
+      ]
     },
     {
-      "before": ["g", "j"],
-      "commands": ["workbench.action.navigateBack"]
+      "before": [
+        "g",
+        "j"
+      ],
+      "commands": [
+        "workbench.action.navigateBack"
+      ]
     },
     {
-      "before": ["<C-j>"],
-      "after": ["<Esc>"]
-    },
-    {
-      "before": ["<C-k>"],
-      "commands": ["lineBreakInsert"],
+      "before": [
+        "<C-k>"
+      ],
+      "commands": [
+        "lineBreakInsert"
+      ],
       "silent": true
     },
     {
-      "before": ["<C-n>"],
-      "commands": [":nohl"]
+      "before": [
+        "<C-n>"
+      ],
+      "commands": [
+        ":nohl"
+      ]
     },
     {
-      "before": ["leader", "w"],
-      "commands": ["workbench.action.files.save"]
+      "before": [
+        "leader",
+        "w"
+      ],
+      "commands": [
+        "workbench.action.files.save"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "f"
+      ],
+      "commands": [
+        "editor.action.formatDocument"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "u"
+      ],
+      "after": [
+        "g",
+        "U",
+        "i",
+        "w"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "s"
+      ],
+      "after": [
+        "leader",
+        "leader",
+        "s"
+      ]
     }
   ],
   "vim.leader": "<space>",
-  "liveServer.settings.donotShowInfoMsg": true
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  /* -------------liveServer------------ */
+  "liveServer.settings.donotShowInfoMsg": true,
+  /* -------------prettier-------------- */
+  "prettier.printWidth": 60,
+  /* ------------diffEditor------------- */
+  "diffEditor.ignoreTrimWhitespace": false,
+  /* ------------vite------------------- */
+  "vite.autoStart": false,
+  /* ------------vue-------------------- */
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  /* -------------jsonc----------------- */
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
+  /* -------------comments------------- */
+  // "editor.fontLigatures": true,
+  // "editor.formatOnSave": true,
+  // "editor.lineNumbers": "interval",
+  // "window.nativeTabs": true,
+  // "workbench.editor.showTabs": false,
 }
