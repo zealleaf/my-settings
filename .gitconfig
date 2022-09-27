@@ -15,3 +15,6 @@
 	unstage = reset HEAD --
 	last = log -1 HEAD --pretty=format:'%h %ad → %s%d [%an]' --graph --date=short --decorate
 	hist = log --pretty=format:'%h %ad → %s%d [%an]' --graph --date=short --decorate
+	un = config --global user.name
+	ue = config --global user.email
+	cgl = config --global  --list 

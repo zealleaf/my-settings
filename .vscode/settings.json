@@ -3,7 +3,7 @@
   "editor.fontFamily": "Fira Code",
   "editor.tabSize": 2,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.lineNumbers": "relative",
+  // "editor.lineNumbers": "relative",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.fontSize": 13,
@@ -29,7 +29,7 @@
     "cSpell",
     "eslint",
     "stylelint"
-  ], 
+  ],
   /* ---------markdown--------- */
   "[markdown]": {
     "editor.quickSuggestions": {
@@ -119,7 +119,7 @@
       "commands": [
         "editor.action.outdentLines"
       ]
-    }
+    },
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
@@ -143,7 +143,7 @@
         "J"
       ],
       "after": [
-        "5",
+        "9",
         "j"
       ]
     },
@@ -152,7 +152,7 @@
         "K"
       ],
       "after": [
-        "5",
+        "9",
         "k"
       ]
     },
@@ -222,12 +222,12 @@
         "leader",
         "s"
       ]
-    }
+    },
   ],
   "vim.leader": "<space>",
   "vim.handleKeys": {
     "<C-a>": false,
-    "<C-f>": false
+    "<C-f>": false,
   },
   /* -------------liveServer------------ */
   "liveServer.settings.donotShowInfoMsg": true,
@@ -244,7 +244,8 @@
   /* -------------jsonc----------------- */
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
-  }
+  },
+  "editor.formatOnSave": true
   /* -------------comments------------- */
   // "editor.fontLigatures": true,
   // "editor.formatOnSave": true,
