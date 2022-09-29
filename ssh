@@ -6,4 +6,4 @@ ssh-keygen -t rsa -C "your email"
 Host github.com
 HostName ssh.github.com
 User git
-Port 443
+Port 22
