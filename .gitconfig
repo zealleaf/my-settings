@@ -7,6 +7,8 @@
 	bra = branch -a
 	ci = commit
 	cim = commit -m
+	ps = push
+	pl = pull
 	st = status
 	rs = reset
 	rss = reset --soft

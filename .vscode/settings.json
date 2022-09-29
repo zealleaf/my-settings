@@ -11,7 +11,7 @@
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "Vim Dark Medium",
+  "workbench.colorTheme": "GitHub Dark Default",
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#f5f5f5"
   },
